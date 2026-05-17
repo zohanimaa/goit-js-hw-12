@@ -19,6 +19,6 @@ export async function getImagesByQuery(query, page) {
         });
         return response.data;
     } catch (error) {
-        throw new error("Pixabay request failed");
+        throw new Error("Pixabay request failed");
     }
 }
