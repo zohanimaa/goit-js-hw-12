@@ -13,6 +13,25 @@
     display: block;
 }
 
+.hidden {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease;
+}
+.load-more {
+    background-color: #4e75ff;
+    border-radius: 8px;
+    width: 125px;
+    height: 40px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    margin:auto;
+    display: block;
+}
+
 @keyframes spin {
     0% {
         transform: rotate(0deg);
